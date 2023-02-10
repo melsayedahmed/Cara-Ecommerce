@@ -1,0 +1,284 @@
+/* global */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+
+nav {
+  background-color: #e3e6f3;
+}
+nav a {
+  color: #515256 !important;
+  font-weight: 600;
+}
+nav a:hover {
+  color: #088178 !important;
+}
+nav a:hover .greenline {
+  text-decoration: underline;
+}
+nav button {
+  background-color: transparent;
+  border: none;
+}
+#navbarNav {
+  justify-content: flex-end;
+}
+.nav-item {
+  margin-right: 20px;
+}
+
+/* offcanvas */
+
+.offcanvas-product {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.offcanvas-product button {
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: none;
+}
+.offcanvas-product button:hover {
+  color: white;
+}
+.offcanvas-increase-btn {
+  background-color: lightgreen;
+}
+.offcanvas-increase-btn:hover {
+  background-color: green;
+}
+.offcanvas-decrease-btn {
+  background-color: khaki;
+}
+.offcanvas-decrease-btn:hover {
+  background-color: yellow;
+}
+.offcanvas-remove-btn {
+  background-color: lightcoral;
+}
+.offcanvas-remove-btn:hover {
+  background-color: darkred;
+}
+.item {
+  text-align: center;
+  font-size: small;
+}
+.item p {
+  margin: 0;
+}
+.item,
+.unit-price,
+.units {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#subtotal {
+  width: 100%;
+}
+
+/* header */
+
+header {
+  background-color: #e3e6f3;
+}
+#header {
+  height: 90vh;
+  width: 100%;
+}
+#header-txt {
+  width: 60%;
+  height: 100%;
+}
+#shop-now {
+  background-image: url("../images/shop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+/* advantages */
+
+#advantages .col-lg-2 {
+  text-align: center;
+  color: #548178;
+}
+#advantages .box {
+  border: 2px solid #cce7d0;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  #advantages .box {
+    width: 70%;
+  }
+  #advantages .col-lg-2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* products */
+
+.products {
+  color: #7a7c7a;
+}
+.products h2,
+h5 {
+  color: black;
+}
+.products .price {
+  color: #088178;
+}
+.card {
+  border-radius: 15px;
+}
+.card img {
+  border-radius: 15px;
+}
+.card-body p,
+.card-body h5 {
+  margin: 0;
+}
+.star {
+  width: 15px;
+  height: 15px;
+}
+.card button {
+  background-color: #e8f6ea;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+}
+.card button:hover {
+  background-color: #088178;
+}
+.card button:hover svg {
+  fill: white;
+}
+#card-controls button {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* repair services */
+
+#repair-services {
+  background-image: url("../images/sec-three.jpg");
+  color: white;
+  font-weight: 600;
+}
+
+#repair-services button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* promotions */
+
+#promotions {
+  color: white;
+}
+#promotions img {
+  width: 100%;
+}
+#promotions .col-lg-6 {
+  position: relative;
+}
+#promotions .text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#promotions button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: 500;
+}
+#promotions h5 {
+  color: #ef3636;
+}
+@media screen and (max-width: 319px) {
+  #promotions .text {
+    font-size: xx-small;
+  }
+}
+
+/* signup */
+
+#signup {
+  background-image: url("../images/sec-seven.jpg");
+  color: #818ea0;
+  font-weight: 700;
+}
+#signup-form {
+  width: 100%;
+}
+#signup-btn {
+  background-color: #088178;
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 600;
+}
+#email {
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+@media screen and (min-width: 1024px) {
+  #signup-form {
+    width: 75%;
+  }
+}
+
+/* footer */
+
+footer {
+  color: #515256;
+}
+
+footer h5 {
+  color: black;
+}
+
+footer a {
+  color: #515256;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #515256;
+}
+
+.store img {
+  outline: 1px solid dodgerblue;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 150px;
+}
+
+.contact {
+  margin-bottom: 1rem;
+}
+
+svg {
+  margin-right: 5px;
+}
